@@ -1,7 +1,7 @@
 function volume_sphere(e) {
 	e.preventDefault();
 	let r = document.getElementById("radius").value;
-	let input2 = document.getElementById("volume")
+	let input2 = document.getElementById("volume").value = ""
 const PI = 3.14159;
 
 
