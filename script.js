@@ -10,7 +10,7 @@ if(isNaN(raio) || raio <= 0 ){
 	document.getElementById("volume").value  = 'NaN';
 }else if(r >0){
 	var volumeEsfera = (4/3) * Math.PI * Math.pow(raio, 3);
-	document.getElementById("volume").value  = volumeEsfera;
+	document.getElementById("volume").value  = volumeEsfera.toFixed(4);
 }
 
   
